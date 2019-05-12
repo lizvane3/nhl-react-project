@@ -1,14 +1,12 @@
-import React  from 'react';
-import HeaderComponent from './HeaderComponent';
-import DrawerComponent from './DrawerComponent';
+import React from 'react';
+import MainComponent from './MainComponent';
 import '../App.css';
 
 function App() {
   return (
     <div className='root' >
-      <HeaderComponent />
-      <DrawerComponent  />
-  </div>
+      <MainComponent />
+    </div>
   );
 }
 

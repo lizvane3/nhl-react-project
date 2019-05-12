@@ -4,9 +4,7 @@
 }
 .homeBackground {
   background-image: url(./nhlwallpaper.jpg);
-  background-repeat: no-repeat;
-  background-size: 88% 100%;
-  background-position:  100% 100%;
+  background-size: 100% 100% ;
   background-attachment: fixed;
   min-height: 100vh;
 }
