@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "NHL React Hooks",
+  "name": "NHL React Project",
   "icons": [
     {
       "src": "favicon.ico",
