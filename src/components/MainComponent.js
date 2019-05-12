@@ -58,7 +58,7 @@ function MainComponent(props) {
         setTeamName(name);
       });
   }
-  
+
   return (
     <React.Fragment>
       <HeaderComponent onclick={setMobileOpen} isOpen={mobileOpen} />

@@ -3,9 +3,12 @@
   display: flex;
 }
 .homeBackground {
-  background-image: url(./nhlwallpaper.jpg);
-  background-size: 100% 100% ;
-  background-attachment: fixed;
+  background: url(./nhlwallpaper.jpg) no-repeat center center fixed; 
+  background-size: 130% 100%;
+  -webkit-background-size: 130% 100%;
+  -moz-background-size: 130% 100%;
+  -o-background-size: 130% 100%;
+  background-position: 0 60px;
   min-height: 100vh;
 }
 .content {
@@ -37,4 +40,14 @@
 }
 .modal{
   top: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeBackground {
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
 }
