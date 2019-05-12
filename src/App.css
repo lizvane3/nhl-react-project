@@ -1,0 +1,42 @@
+
+.root {
+  display: flex;
+}
+.homeBackground {
+  background-image: url(./nhlwallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 88% 100%;
+  background-position:  100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.content {
+  flex-grow: 1;
+  padding: 24px;
+  padding-right: 40px;
+}
+.homeContent {
+  flex-grow: 1;
+}
+.rootMainContent {
+  width: 100%;
+  margin-top: 24px;
+  overflow-x: auto;
+}
+.title {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+.drawer {
+  width: 300px;
+  flex-shrink: 0;
+}
+.avatar {
+  margin: 10px;
+}
+.modal{
+  top: 30%;
+}
