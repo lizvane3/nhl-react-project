@@ -31,10 +31,6 @@
 .cursor {
   cursor: pointer;
 }
-.drawer {
-  width: 300px;
-  flex-shrink: 0;
-}
 .avatar {
   margin: 10px;
 }

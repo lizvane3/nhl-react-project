@@ -10,6 +10,7 @@ import { Tooltip } from "@material-ui/core";
 import TableSortLabel from '@material-ui/core/TableSortLabel';
 import TextField from "@material-ui/core/TextField";
 import Typography from '@material-ui/core/Typography';
+
 import ModalComponent from './ModalComponent';
 
 const styles = theme => ({

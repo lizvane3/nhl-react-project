@@ -6,12 +6,13 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import Avatar from '@material-ui/core/Avatar';
 import { withStyles } from '@material-ui/core/styles';
+import axios from 'axios';
+
 import HeaderComponent from './HeaderComponent';
 import ContentComponent from './ContentComponent';
 import HomeComponent from './HomeComponent';
-import axios from 'axios';
-import Avatar from '@material-ui/core/Avatar';
 
 const drawerWidth = 300;
 
@@ -56,6 +57,7 @@ function MainComponent(props) {
       .then(data => {
         setPlayerList(data);
         setTeamName(name);
+        setMobileOpen(false);
       });
   }
 
